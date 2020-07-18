@@ -1,0 +1,151 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.container
+{
+    height: 100vh;
+    width: 100vw;
+}
+.header
+{
+    display: flex;
+    background-color: #4267b2;
+    color: #fff;
+}
+
+.header-1, .header-2
+{
+    flex: 1;
+    padding-left: 40px;
+}
+
+.header-1 h1
+{
+ margin-left: 77px;   
+}
+
+.header-2
+{
+    padding: 15px 0;
+    margin-left: 135px;
+}
+
+
+.header-2 label:first-child
+{
+    margin-right: 70px;
+}
+
+.textfield input
+{
+    margin: 3px auto;
+        
+} 
+
+.header-2 a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.header-2 a:last-child
+{
+    margin-left: 35px;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #e9ebee;
+    background-size: cover;
+    height: 90vh;
+}
+
+.content-1, .content-2
+{
+    flex: 1;
+}
+
+.content-1{
+    /* flex-basis: 45%; */
+    font-weight: bold;
+    word-spacing: 0.2em;
+    align-content: center;
+    margin-left: 100px;
+}
+
+.content-2
+{
+    margin-left: 90px;
+}
+
+.content-2 h1{
+    font-size: 35px;
+}
+
+.content-2 input{
+    height: 30px;
+    border-radius: 5px;
+    border: transparent;
+    padding: 3px;
+    margin-bottom: 14px;
+
+}
+
+.form:nth-child(3), 
+{
+    margin: 10px;
+}
+
+
+.content-2 .set{
+    width: 56%;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.content-2 .bg{
+    height: auto;
+    margin-top: -35px;
+    margin-bottom: -15px;
+}
+
+.content-2 button{
+    padding: 8px 40px;
+    background-color: #5d9149;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+}
+
+.footer label{
+    display: block;
+     padding: 0.1rem;
+     font-weight: bold;
+     color: grey;
+     margin-bottom: -7px;
+     
+}
+
+.footer a
+{
+    text-decoration: none;
+}
+
+.footer select
+{
+    margin-bottom: 7px;
+    border: transparent;
+    height: 23px;
+    border-radius: 5px;
+}
